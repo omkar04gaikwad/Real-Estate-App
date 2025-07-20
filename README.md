@@ -59,35 +59,37 @@ real-estate-app/
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/yourusername/real-estate-app.git
 cd real-estate-app
-2. Start Services via Docker
-bash
-Copy
-Edit
+```
+### 2. Start Services via Docker
+```
 docker-compose up --build
-3. Seed Initial Data (Optional)
+```
+### 3. Seed Initial Data
+```
 Use realtor-data.csv to populate PostgreSQL.
 
-You can load it using a custom Python script or via pgAdmin.
-
-4. Access the App
+```
+### 4. Access the App
+```
 Frontend: http://localhost:3000
 
 GraphQL Playground: http://localhost:5000/graphql
+```
 
-📄 Sample Dataset
+### 📄 Sample Dataset
 We use a modified version of a real estate dataset (realtor-data.csv) with the following fields:
 
 price, bed, bath, acre_lot, city, state, zip_code, house_size, status, prev_sold_date
 
 Encoded fields: street, brokered_by
 
-📬 Contact
+### 📬 Contact
 Got suggestions or want to contribute?
 
 GitHub: @omkar04gaikwad
 
-📝 License
+### 📝 License
 This project is open source and available under the MIT License.
